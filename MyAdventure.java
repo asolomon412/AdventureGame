@@ -4,8 +4,7 @@ public class MyAdventure {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
-		//do {
+
 		System.out.println("Choose an option below: \n");
 		System.out.println("Option 1: What's your magical talent?\n");
 		System.out.println("Option 2: What's your dream vacation destination?");
@@ -31,7 +30,7 @@ public class MyAdventure {
 			case "march":
 			case "may":
 			case "october":
-				System.out.println(newInput.toUpperCase() +" You're a wizard!");
+				System.out.println(newInput.toUpperCase() + " You're a wizard!");
 				break;
 			case "april":
 			case "june":
