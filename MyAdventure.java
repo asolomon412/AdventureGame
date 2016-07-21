@@ -77,10 +77,7 @@ public class MyAdventure {
 			System.out.println("You must enter a valid option!");
 			break;
 		}
-//		while (cont.equalsIgnoreCase("y")) {
-//			
-//		}
-//		scan.close();
+		scan.close();
 	}
 
 }
